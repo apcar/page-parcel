@@ -8,10 +8,10 @@
   "author": "Andrew Greene <https://github.com/apcar>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apcar/page-parcel.git"
+    "url": "https://github.com/apcar/pageparcel.git"
   },
-  "homepage": "https://github.com/apcar/page-parcel#readme",
-  "bugs": "https://github.com/apcar/page-parcel/issues",
+  "homepage": "https://github.com/apcar/pageparcel#readme",
+  "bugs": "https://github.com/apcar/pageparcel/issues",
   "keywords": [
     "chrome-extension",
     "screenshot",
