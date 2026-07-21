@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="980" viewBox="0 0 920 980">
+  <rect width="920" height="980" fill="#f4f2ed"/>
+  <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="64" y="92" fill="#0b7a75" font-size="16" font-weight="700" letter-spacing="2">PAGEPARCEL DEMONSTRATION</text>
+    <text x="64" y="172" fill="#23313d" font-size="62" font-weight="750" letter-spacing="-2">Pack the page.</text>
+    <text x="64" y="240" fill="#23313d" font-size="62" font-weight="750" letter-spacing="-2">Keep the record.</text>
+    <text x="64" y="298" fill="#52616b" font-size="21">This harmless static page demonstrates the portable Trace Bundle format.</text>
+    <g transform="translate(64 352)">
+      <rect width="378" height="190" rx="18" fill="#ffffff" stroke="#d8dddc"/>
+      <circle cx="48" cy="48" r="22" fill="#dff3f0"/>
+      <text x="48" y="56" text-anchor="middle" fill="#0b7a75" font-size="23">◉</text>
+      <text x="28" y="99" fill="#23313d" font-size="23" font-weight="700">Visual truth</text>
+      <text x="28" y="134" fill="#66757d" font-size="16">Lossless PNG captures preserve what</text>
+      <text x="28" y="160" fill="#66757d" font-size="16">the browser rendered.</text>
+    </g>
+    <g transform="translate(478 352)">
+      <rect width="378" height="190" rx="18" fill="#ffffff" stroke="#d8dddc"/>
+      <circle cx="48" cy="48" r="22" fill="#dff3f0"/>
+      <text x="48" y="56" text-anchor="middle" fill="#0b7a75" font-size="23">≡</text>
+      <text x="28" y="99" fill="#23313d" font-size="23" font-weight="700">Useful structure</text>
+      <text x="28" y="134" fill="#66757d" font-size="16">Markdown keeps headings, links, lists,</text>
+      <text x="28" y="160" fill="#66757d" font-size="16">and readable page text.</text>
+    </g>
+    <g transform="translate(64 578)">
+      <rect width="378" height="190" rx="18" fill="#ffffff" stroke="#d8dddc"/>
+      <circle cx="48" cy="48" r="22" fill="#dff3f0"/>
+      <text x="48" y="56" text-anchor="middle" fill="#0b7a75" font-size="23">⌁</text>
+      <text x="28" y="99" fill="#23313d" font-size="23" font-weight="700">Source context</text>
+      <text x="28" y="134" fill="#66757d" font-size="16">Metadata records URL, title, timestamp,</text>
+      <text x="28" y="160" fill="#66757d" font-size="16">method, and capture geometry.</text>
+    </g>
+    <g transform="translate(478 578)">
+      <rect width="378" height="190" rx="18" fill="#ffffff" stroke="#d8dddc"/>
+      <circle cx="48" cy="48" r="22" fill="#dff3f0"/>
+      <text x="48" y="56" text-anchor="middle" fill="#0b7a75" font-size="23">#</text>
+      <text x="28" y="99" fill="#23313d" font-size="23" font-weight="700">Integrity register</text>
+      <text x="28" y="134" fill="#66757d" font-size="16">SHA-256 hashes make later changes to</text>
+      <text x="28" y="160" fill="#66757d" font-size="16">bundled artifacts detectable.</text>
+    </g>
+    <path d="M64 836h792" stroke="#cbd1d0"/>
+    <text x="64" y="884" fill="#66757d" font-size="16">Generated for the PageParcel 0.2.0 public release.</text>
+    <text x="64" y="918" fill="#0b7a75" font-size="16" font-weight="700">pageparcel.co</text>
+  </g>
+</svg>

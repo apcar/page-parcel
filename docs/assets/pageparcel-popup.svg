@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="520" viewBox="0 0 420 520">
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#1f2937" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="420" height="520" fill="#f4f2ed"/>
+  <g filter="url(#shadow)">
+    <rect x="30" y="28" width="360" height="464" rx="16" fill="#ffffff" stroke="#d8dddc"/>
+    <path d="M30 92h360" stroke="#e3e6e5"/>
+    <g transform="translate(52 50)" fill="none" stroke="#0b7a75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M19 14V6a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 1 6v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 19 14z"/>
+      <path d="M1.27 4.96 10 10.01l8.73-5.05M10 20.08V10"/>
+    </g>
+    <text x="82" y="67" fill="#23313d" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="18" font-weight="700">PageParcel</text>
+    <g transform="translate(348 51)" fill="none" stroke="#66757d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="8" cy="8" r="2.5"/><path d="M14.4 10a1.6 1.6 0 0 0 .3 1.8l.1.1-2.9 2.9-.1-.1a1.6 1.6 0 0 0-1.8-.3A1.6 1.6 0 0 0 9 15.9V16H5v-.1A1.6 1.6 0 0 0 4 14.4a1.6 1.6 0 0 0-1.8.3l-.1.1-2.9-2.9.1-.1A1.6 1.6 0 0 0-.4 10 1.6 1.6 0 0 0-1.9 9H-2V5h.1A1.6 1.6 0 0 0-.4 4a1.6 1.6 0 0 0-.3-1.8l-.1-.1L2.1-.8l.1.1A1.6 1.6 0 0 0 4-.4 1.6 1.6 0 0 0 5-1.9V-2h4v.1A1.6 1.6 0 0 0 10-.4a1.6 1.6 0 0 0 1.8-.3l.1-.1 2.9 2.9-.1.1A1.6 1.6 0 0 0 14.4 4 1.6 1.6 0 0 0 15.9 5h.1v4h-.1a1.6 1.6 0 0 0-1.5 1z"/>
+    </g>
+    <g font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+      <g transform="translate(46 112)">
+        <rect width="328" height="72" rx="12" fill="#f4fbfa" stroke="#88cbc5"/>
+        <text x="18" y="43" font-size="25">📦</text>
+        <text x="58" y="29" fill="#23313d" font-size="15" font-weight="700">Trace Bundle</text>
+        <text x="58" y="50" fill="#66757d" font-size="11.5">Screenshot, Markdown, metadata, and hashes</text>
+        <rect x="277" y="26" width="34" height="20" rx="5" fill="#e5eeec"/>
+        <text x="284" y="40" fill="#52616b" font-size="10">⌘⇧1</text>
+      </g>
+      <g transform="translate(46 194)">
+        <rect width="328" height="72" rx="12" fill="#fbfbfa" stroke="#d8dddc"/>
+        <text x="18" y="43" font-size="25">📄</text>
+        <text x="58" y="29" fill="#23313d" font-size="15" font-weight="700">Full Page</text>
+        <text x="58" y="50" fill="#66757d" font-size="11.5">Capture the entire scrollable page</text>
+        <rect x="277" y="26" width="34" height="20" rx="5" fill="#edf0ef"/>
+        <text x="284" y="40" fill="#52616b" font-size="10">⌘⇧2</text>
+      </g>
+      <g transform="translate(46 276)">
+        <rect width="328" height="72" rx="12" fill="#fbfbfa" stroke="#d8dddc"/>
+        <text x="18" y="43" font-size="25">◉</text>
+        <text x="58" y="29" fill="#23313d" font-size="15" font-weight="700">Visible Area</text>
+        <text x="58" y="50" fill="#66757d" font-size="11.5">Capture what is currently visible</text>
+        <rect x="277" y="26" width="34" height="20" rx="5" fill="#edf0ef"/>
+        <text x="284" y="40" fill="#52616b" font-size="10">⌘⇧3</text>
+      </g>
+      <g transform="translate(46 358)">
+        <rect width="328" height="72" rx="12" fill="#fbfbfa" stroke="#d8dddc"/>
+        <text x="18" y="43" font-size="25">✂</text>
+        <text x="58" y="29" fill="#23313d" font-size="15" font-weight="700">Region</text>
+        <text x="58" y="50" fill="#66757d" font-size="11.5">Select a precise area to capture</text>
+        <rect x="277" y="26" width="34" height="20" rx="5" fill="#edf0ef"/>
+        <text x="284" y="40" fill="#52616b" font-size="10">⌘⇧4</text>
+      </g>
+      <path d="M46 449h328" stroke="#e3e6e5"/>
+      <text x="210" y="475" text-anchor="middle" fill="#0b7a75" font-size="12" font-weight="600">Customize keyboard shortcuts</text>
+    </g>
+  </g>
+</svg>

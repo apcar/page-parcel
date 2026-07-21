@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-build-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: assets/extension/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: assets/extension
+
+      - name: Check formatting
+        run: npm run format:check
+        working-directory: assets/extension
+
+      - name: Lint source
+        run: npm run lint
+        working-directory: assets/extension
+
+      - name: Run unit tests
+        run: npm test
+        working-directory: assets/extension
+
+      - name: Build extension
+        run: npm run build
+        working-directory: assets/extension
+
+      - name: Enforce security contract
+        run: python3 scripts/security_audit.py assets/extension
+
+      - name: Self-test bundle verifier
+        run: python3 scripts/verify_bundle.py --self-test
+
+      - name: Verify public example bundle
+        run: |
+          python3 scripts/build_public_sample.py
+          python3 scripts/verify_bundle.py docs/examples/PageParcel-Sample.zip
+          git diff --exit-code -- docs/examples/PageParcel-Sample.zip

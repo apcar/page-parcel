@@ -1,0 +1,4 @@
+interface:
+  display_name: "PageParcel"
+  short_description: "Pack web pages into portable local records"
+  default_prompt: "Use $pageparcel to capture, inspect, or verify a local PageParcel Trace Bundle."
