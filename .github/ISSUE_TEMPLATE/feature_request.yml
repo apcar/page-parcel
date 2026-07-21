@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose an improvement that preserves PageParcel's local-first boundary.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user need before proposing implementation details.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundary
+    attributes:
+      label: Local-first boundary
+      options:
+        - label: This proposal does not require analytics, remote capture, upload services, sync storage, or broad host permissions.
+          required: true

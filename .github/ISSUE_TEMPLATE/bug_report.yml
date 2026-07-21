@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a reproducible PageParcel problem using a public test page.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not attach private captures, credentials, personal data, or proprietary content. Use GitHub private vulnerability reporting for security issues.
+  - type: input
+    id: version
+    attributes:
+      label: PageParcel version
+      placeholder: 0.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Capture mode
+      options:
+        - Trace Bundle
+        - Full page
+        - Visible area
+        - Region
+        - Annotation or export
+        - Installation or build
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior and reproduction steps
+      description: Prefer a public URL or a minimal local test page.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Chrome and operating system versions
+    validations:
+      required: true
