@@ -8,7 +8,7 @@ authors:
   - family-names: "Greene"
     given-names: "Andrew"
     alias: "apcar"
-repository-code: "https://github.com/apcar/page-parcel"
-url: "https://github.com/apcar/page-parcel"
+repository-code: "https://github.com/apcar/pageparcel"
+url: "https://github.com/apcar/pageparcel"
 license: MIT
 abstract: "A local-first Chrome extension that packages web pages into portable records with screenshots, Markdown, source metadata, and SHA-256 integrity hashes."
