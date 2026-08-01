@@ -33,7 +33,7 @@
     "package": "npm run build"
   },
   "dependencies": {
-    "defuddle": "0.19.1",
+    "defuddle": "0.19.2",
     "fflate": "0.8.3",
     "preact": "^10.29.7",
     "turndown": "7.2.4"
