@@ -35,7 +35,7 @@
   "dependencies": {
     "defuddle": "0.19.1",
     "fflate": "0.8.3",
-    "preact": "^10.29.7",
+    "preact": "^10.29.8",
     "turndown": "7.2.4"
   },
   "devDependencies": {
